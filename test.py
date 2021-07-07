@@ -6,4 +6,4 @@ def do_work():
 
 
 do_work()
-print(np.sin(5))
+print(np.cos(5))
