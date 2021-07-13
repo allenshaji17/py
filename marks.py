@@ -1,9 +1,19 @@
-marks=[54,32,2t9,32,29]
-avg=sum(marks)/5
-print(avg)
+marks=[84,82,89,82,89]
+Sum = 0
+for i in range(0, len(marks)):
+    Sum = Sum + marks[i]
+avg = Sum/5
 if (avg>75):
 	print("distinction")
-elif (avg<45):
-	print("failed")
 else:
-	print("passed")
+    for i in marks:
+        if (i < 45):
+            print("failed")
+            break
+    else:
+        print("passed")
+
+
+
+
+
